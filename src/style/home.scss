@@ -1,0 +1,41 @@
+#page-home{
+  display: flex;
+  align-items: stretch;
+  height: 100vh;
+  overflow: hidden;
+
+  aside{
+    flex: 8;
+    background: url('../assets/trien.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  main{
+    flex: 8;
+    .main-container{
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+
+    h1{
+      font-size: 50px;
+      margin-bottom: 10px;
+    }
+    .tag{
+      background: #FF4C29;
+      padding: 7px;
+      border-radius: 50px;
+      color: #fff;
+      margin-bottom: 10px;
+      font-size: 12px;
+      text-align: center;
+      width: 100px;
+    }
+    .cards1{
+      display: flex;
+    }
+    }
+  }
+}
